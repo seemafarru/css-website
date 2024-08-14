@@ -1,0 +1,57 @@
+body{
+  font-family: "Cinzel", serif;
+  margin: 50px 50px 0 50px;
+  background-color: lightcyan;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main{
+    flex: 1;
+}
+h1{
+    font-size: 3rem;
+}
+footer{
+    text-align: left;
+    color: blue;
+}
+.mountains{
+    color: lightgreen;
+}
+.title-image{
+    height: 150px;
+    float: left;
+    margin-right: 50px;
+}
+.card{
+    width: 80%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+@media (max-width:1200px){
+    .logo{
+        width: 100px;
+        align-items: center;
+    }
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .card img{
+        margin-bottom: 10px;
+        width: 50%;
+        display: inline;
+        object-fit: cover;
+    }
+}
